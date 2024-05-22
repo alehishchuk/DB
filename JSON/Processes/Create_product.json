@@ -1,0 +1,18 @@
+{
+    "Employee": {
+        "Login": "manager"
+    },
+    "Product": {
+        "Brand": "Nokia",
+        "Code": "N-0001",
+        "Name": "3214",
+        "Price": "100$",
+        "MinAge": "18",
+        "State": "in stock",
+        "Active": "true"                
+    },
+    "Characteristics": {
+        "Name": "Weight",
+        "Value": "100"
+    }
+}
