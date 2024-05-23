@@ -1,0 +1,10 @@
+{
+    "Employee": {
+        "Login": "manager"
+    },
+    "Product": {
+        "Code": "N-0002", 
+        "State": "not available"
+    }
+    //Правильно ли так делать для обновления состояния?
+}

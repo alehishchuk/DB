@@ -9,10 +9,16 @@
         "Price": "100$",
         "MinAge": "18",
         "State": "in stock",
-        "Active": "true"                
+        "Active": "true",
+        "Characteristics": 
+        [
+            {
+            "Name": "Weight",
+            "Value": "100"
+            }
+        ]           
     },
-    "Characteristics": {
-        "Name": "Weight",
-        "Value": "100"
+    "CatalogSection": {
+        "Name": "Cell phones"
     }
 }

@@ -1,4 +1,7 @@
 {
+    "Employee": {
+        "Login": "director"
+    },
     "Warehouse": {
         "Name": "Central warehouse",
         "Address": "Bulgaria, Sofia, Center",
