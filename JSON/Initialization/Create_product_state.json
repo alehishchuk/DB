@@ -1,0 +1,13 @@
+{
+    "ProductState": [
+        {
+            "Name": "not available"
+        },
+        {
+            "Name": "in stock"
+        },
+        {
+            "Name": "on demand"
+        }
+    ]
+}

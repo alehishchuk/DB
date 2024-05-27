@@ -1,0 +1,16 @@
+{
+    "PurchaseLevel": [
+        {
+            "Name": "Tin"
+        },
+        {
+            "Name": "Bronze"
+        },
+        {
+            "Name": "Silver"
+        },
+        {
+            "Name": "Gold"
+        }
+    ]    
+}

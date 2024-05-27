@@ -1,0 +1,21 @@
+{
+    "Client": {
+        "Name": "qwerty",
+        "Login": "Client_1",
+        "PassworgHash": "fjl87fgkor",
+        "PhoneNumber": "+375296678745",
+        "Email": "client1.gmail.com",
+        "Country": "Bulgaria",
+        "PurchaseLevel": "Silver",
+        "BonusPoints": "1740",
+        "RegistrationDateTime": "27.05.2024 08.47.00",
+        "LastAuthorizationDateTime": "27.05.2024 09.25.00"
+    },
+    "Country": {
+        "Name": "Bulgaria"        
+    },
+    "Basket": {
+        //какие свойства здесь указывать и нужно ли вообще указывать свойство Basket?
+    }
+    
+}

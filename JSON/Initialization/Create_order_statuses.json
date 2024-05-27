@@ -1,0 +1,28 @@
+{
+    "OrderStatus": [
+        {
+            "Name": "created"
+        },
+        {
+            "Name": "confirmed"
+        },
+        {
+            "Name": "collected"
+        },
+        {
+            "Name": "ready for delivery"
+        },
+        {
+            "Name": "issued"
+        },
+        {
+            "Name": "returned"
+        },
+        {
+            "Name": "cancelled"
+        },
+        {
+            "Name": "completed"
+        }
+    ]
+}
