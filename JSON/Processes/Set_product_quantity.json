@@ -4,11 +4,10 @@
     },
     "Product": {
         "Code": "N-0002", 
-        "Price": "1500$"
-    },
-    //Линия ведет в продукту, как это здесь отобразить?
+        "Brand": "Nokia"
+    },    
     "Warehouse": {
-        "ProductQuantity": "24"
-    }
-    //Правильно ли добавлять новый аттрибут в Warehouse?
+        "Name": "Central warehouse"        
+    },
+    "ProductQuantity": "24"    
 }

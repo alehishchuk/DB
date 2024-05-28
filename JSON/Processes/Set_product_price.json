@@ -1,10 +1,10 @@
 {
     "Employee": {
-        "Login": "manager"
+        "Login": "director"
     },
     "Product": {
         "Code": "N-0002", 
-        "Price": "1500$"
-    }
-    //Правильно ли так делать для обновления цены?
+        "Brand": "Nokia",
+        "Price": "180$"
+    }    
 }

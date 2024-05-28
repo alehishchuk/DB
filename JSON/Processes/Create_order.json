@@ -2,29 +2,30 @@
     "Order": {
         "Client": "Client_1",
         "Code": "CP-0001",
-        "CreatedDate": "27.05.2024",
-        "FinalCost": "250",
+        "CreatedDate": "27.05.2024",        
         "OrderStatus": "confirmed",
         "ShelfLife": "29.05.2024",
-        "Warehouse": "Central warehouse",
-        "PickUpPoint": "No",
         "VAT": "13"
     },
-    "ProductPrice": "250",
-    "ProductQuantity": "1",
-    "DiscountValue": "0",
     "Client": {
         "Login": "Client_1"
     },
-    "Product": {
-        "Code": "N-0001"
-    },
+    "Product": [
+        {
+            "Code": "N-0001",
+            "Brand": "Nokia",
+            "ProductQuantity": "1"
+        },
+        {
+            "Code": "N-0002",
+            "Brand": "Nokia",
+            "ProductQuantity": "1"
+        }
+    ],
     "Warehouse": {
         "Name": "Central warehouse"
     },
     "PickUpPoint": {
-        "Name": "Point Druzhba 1"
-    }
-    //можем ли мы использовать Login св-во у клиента для линковки к ордеру? 
-    //можем ли мы использовать Code св-во у продукта для линковки к ордеру? 
+        "Name": null
+    }    
 }

@@ -4,6 +4,8 @@
     },
     "Catalog": {
         "Name": "Cell phones"        
-    }
-    // Parent section????
+    },
+    "ParentCatalog": {
+        "Name": "Phones"
+    }    
 }

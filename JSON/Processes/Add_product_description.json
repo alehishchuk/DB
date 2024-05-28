@@ -2,22 +2,46 @@
     "Employee": {
         "Login": "manager"
     },
-    "Product": {
-        "Brand": "Nokia",
-        "Code": "N-0001",
-        "Name": "3214",
-        "Price": "100$",
-        "MinAge": "18",
-        "ProductState": "in stock",
-        "Active": "true",
-        "Characteristics": 
-        [
-            {
-            "Name": "Weight",
-            "Value": "100"
-            }
-        ]           
-    },
+    "Product": [
+        {
+            "Brand": "Nokia",
+            "Code": "N-0001",
+            "Name": "3214",
+            "Price": "100$",
+            "MinAge": "18",
+            "ProductState": "in stock",
+            "Active": "true",
+            "State": "in stock",
+            "Characteristics": 
+            [
+                {
+                "Name": "Weight",
+                "Value": "100"
+                }
+            ]           
+        },
+        {
+            "Brand": "Nokia",
+            "Code": "N-0002",
+            "Name": "3200",
+            "Price": "150$",
+            "MinAge": "18",
+            "ProductState": "in stock",
+            "Active": "true",
+            "State": "in stock",
+            "Characteristics": 
+            [
+                {
+                    "Name": "Weight",
+                    "Value": "150"
+                },
+                {
+                    "Name": "Height",
+                    "Value": "250"
+                }
+            ]           
+        }
+    ],
     "CatalogSection": {
         "Name": "Cell phones"
     }
