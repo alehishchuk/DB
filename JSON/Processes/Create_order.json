@@ -2,9 +2,9 @@
     "Order": {
         "Client": "Client_1",
         "Code": "CP-0001",
-        "CreatedDate": "27.05.2024",        
+        "CreatedDate": "2024-05-27 12.00.00",        
         "OrderStatus": "confirmed",
-        "ShelfLife": "29.05.2024",
+        "ShelfLife": "2024-05-29 12.00.00",
         "VAT": "13"
     },
     "Client": {
