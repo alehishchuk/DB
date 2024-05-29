@@ -1,6 +1,8 @@
 use estore;
 
-create table if not exists Order
+drop table if exists Order;
+
+create table Order
 (
     OrderID             smallint        not null    auto_increment,
     ClientID            smallint        not null,

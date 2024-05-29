@@ -8,7 +8,6 @@ create table Product
     Brand               varchar(20)     not null,
     Code                varchar(10)     not null,
     Name                varchar(20)     not null,
-    Characteristics     tinyint         null,
     Price               smallint        not null,
     MinAge              tinyint         null,
     State               varchar(20)     not null,

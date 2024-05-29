@@ -1,6 +1,8 @@
 use estore;
 
-create table if not exists OrderProductLink
+drop table if exists OrderProductLink;
+
+create table OrderProductLink
 (
     OrderID             smallint    not null,
     ProductID           smallint    not null,

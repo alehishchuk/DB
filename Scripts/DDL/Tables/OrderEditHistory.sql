@@ -1,6 +1,8 @@
 use estore;
 
-create table if not exists OrderEditHistory
+drop table if exists OrderEditHistory;
+
+create table OrderEditHistory
 (
     OrderID         smallint        not null,
     EmployeeID      smallint        not null,

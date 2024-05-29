@@ -1,6 +1,8 @@
 use estore;
 
-create table if not exists CatalogSection
+drop table if exists CatalogSection;
+
+create table CatalogSection
 (
     CatalogSectionID    tinyint         not null    auto_increment,
     Name                varchar(20)     not null,

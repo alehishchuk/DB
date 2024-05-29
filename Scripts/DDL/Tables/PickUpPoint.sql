@@ -1,6 +1,8 @@
 use estore;
 
-create table if not exists PickUpPoint
+drop table if exists PickUpPoint;
+
+create table PickUpPoint
 (
     PickUpPointID       tinyint         not null    auto_increment,
     Name                varchar(20)     not null,

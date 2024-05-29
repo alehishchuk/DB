@@ -1,6 +1,8 @@
 use estore;
 
-create table if not exists Basket
+drop table if exists Basket;
+
+create table Basket
 (
     ClientID        smallint    not null,
     ProductID       smallint    not null,      

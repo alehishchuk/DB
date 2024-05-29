@@ -1,6 +1,8 @@
 use estore;
 
-create table if not exists ProductPriceHistory
+drop table if exists ProductPriceHistory;
+
+create table ProductPriceHistory
 (
     ProductID       smallint    not null,
     EmployeeID      smallint    not null,

@@ -1,6 +1,8 @@
 use estore;
 
-create table if not exists ProductWarehouseLink
+drop table if exists ProductWarehouseLink;
+
+create table ProductWarehouseLink
 (
     ProductID       smallint    not null,
     WarehouseID     tinyint     not null,

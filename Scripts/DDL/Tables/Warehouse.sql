@@ -1,6 +1,8 @@
 use estore;
 
-create table if not exists Warehouse
+drop table if exists Warehouse;
+
+create table Warehouse
 (
     WarehouseID         tinyint         not null    auto_increment,
     Name                varchar(20)     not null,
