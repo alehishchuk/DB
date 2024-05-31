@@ -1,12 +1,12 @@
 use estore;
 
-drop table if exists CharacteristicsValue;
+drop table if exists ProductCharacteristicsLink;
 
-create table CharacteristicsValue
+create table ProductCharacteristicsLink
 (
     ProductID               smallint        not null,
     CharacteristicsID       smallint        not null,
     Value                   varchar(20)     not null,
 
-    constraint PK_CharacteristicsValue primary key (ProductID, CharacteristicsID)
+    constraint PK_ProductCharacteristicsLink primary key (ProductID, CharacteristicsID)
 );

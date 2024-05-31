@@ -2,7 +2,7 @@
     "Client": {
         "Name": "qwerty",
         "Login": "Client_1",
-        "PassworgHash": "fjl87fgkor",
+        "PasswordHash": "fjl87fgkor",
         "PhoneNumber": "+375296678745",
         "Email": "client1@gmail.com",
         "PurchaseLevel": "Silver",
