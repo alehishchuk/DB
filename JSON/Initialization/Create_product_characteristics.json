@@ -1,0 +1,19 @@
+{
+    "Characteristics": [
+        {
+            "Name": "Height"
+        },
+        {
+            "Name": "Width"
+        },
+        {
+            "Name": "Color"
+        },
+        {
+            "Name": "Volume"
+        },
+        {
+            "Name": "Impact resistance"
+        }
+    ]
+}

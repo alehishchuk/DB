@@ -6,5 +6,7 @@
     },
     "Client": {
         "Login": "Client_1"
-    }
+    },    
+    "PasswordHashMD5": "2fbc9a5d512ecaa00507bf9113960f37",
+    "ProcessStartDateTime": "2023-01-20 10:10:00.000"
 }

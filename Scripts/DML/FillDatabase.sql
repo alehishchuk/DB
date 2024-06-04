@@ -94,6 +94,27 @@ call usp_CreateNewEmployee(N'
 );
 
 
+
+call usp_CreateNewEmployee(N'
+    {
+        "Administrator": {
+            "Login": "sysadmin"
+        },
+        "Employee": {
+            "Login": "bachtiyarovbb", 
+            "PasswordHashMD5": "fe0233e68f00005555889e6f14ae00d7",
+            "FullName": "Бахтияр Бахтиярович Бахтияров",
+            "PhoneNumber": "+375(29)7770002",
+            "JobPosition": "менеджер по продажам",
+            "ContractExpirationDate": "2025-01-25",
+            "SystemRole": "manager"
+        },
+        "ProcessStartDateTime": "2023-01-02 11:00:00.000"
+    }'
+);
+
+
+
 call usp_CreateCountries(N'
     {
         "Country": [
@@ -145,6 +166,24 @@ call usp_CreatePurchaseLevels(N'
                 "Name": "Gold"
             }
         ]    
+    }'
+)
+
+
+
+call usp_CreateProductStates(N'
+    {
+        "ProductState": [
+            {
+                "Name": "not available"
+            },
+            {
+                "Name": "in stock"
+            },
+            {
+                "Name": "on demand"
+            }
+        ]
     }'
 )
 
@@ -251,6 +290,153 @@ call usp_CreatePickUpPoint(N'
             "Name": "Point Plovdiv",
             "Address": "Bulgaria, Plovdiv, Center",
             "WorkingHours": "10.00 - 19.00"
+        }
+    }'
+)
+
+
+
+call usp_AuthorizationClient(N'
+    {
+        "Guest": {
+            "IP": "201.75.254.40",
+            "SessionDateTime": "2024-01-20 12:00:00.000",    
+            "UserAgent": "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:45.0) Gecko/20100101 Firefox/45.0"
+        },
+        "Client": {
+            "Login": "Client_1"
+        },    
+        "PasswordHashMD5": "2fbc9a5d512ecaa00507bf9113960f37",
+        "ProcessStartDateTime": "2023-01-20 10:10:00.000"
+    }'
+)
+
+
+
+call usp_CreateCatalogSection(N'
+    {
+        "Employee": {
+            "Login": "belyaevvi"
+        },
+        "Catalog": {
+            "Name": "Phones"        
+        },
+        "ParentCatalog": {
+            "Name": null
+        }    
+    }'
+)
+
+
+call usp_CreateCatalogSection(N'
+    {
+        "Employee": {
+            "Login": "belyaevvi"
+        },
+        "Catalog": {
+            "Name": "Cell phones"        
+        },
+        "ParentCatalog": {
+            "Name": "Phones"
+        }    
+    }'
+)
+
+
+call usp_CreateCatalogSection(N'
+    {
+        "Employee": {
+            "Login": "belyaevvi"
+        },
+        "Catalog": {
+            "Name": "Old fashion phones"        
+        },
+        "ParentCatalog": {
+            "Name": "Phones"
+        }    
+    }'
+)
+
+
+
+call usp_CreateProductCharacteristics(N'
+    {
+        "Characteristics": [
+            {
+                "Name": "Height"
+            },
+            {
+                "Name": "Width"
+            },
+            {
+                "Name": "Color"
+            },
+            {
+                "Name": "Volume"
+            },
+            {
+                "Name": "Impact resistance"
+            }
+        ]
+    }'
+)
+
+
+
+call usp_AddProductDescription(N'
+    {
+        "Employee": {
+            "Login": "bachtiyarovbb"
+        },
+        "Product": {
+            "Brand": "Nokia",
+            "Code": "N-0002",
+            "Name": "3200",
+            "MinAge": "18",
+            "Characteristics": 
+            [
+                {
+                    "Name": "Width",
+                    "Value": "150"
+                },
+                {
+                    "Name": "Height",
+                    "Value": "250"
+                }
+            ]           
+        },    
+        "CatalogSection": {
+            "Name": "Cell phones"
+        }
+    }'
+)
+
+
+
+call usp_AddProductDescription(N'
+    {
+        "Employee": {
+            "Login": "bachtiyarovbb"
+        },
+        "Product": {
+            "Brand": "Iphone",
+            "Code": "I-0020",
+            "Name": "5S",
+            "MinAge": "18",
+            "Characteristics": 
+            [
+                {
+                    "Name": "Width",
+                    "Value": "150"
+                },
+                {
+                    "Name": "Color",
+                    "Value": "Black"
+                }
+            ]           
+        },    
+        "CatalogSection": {
+            "Name": "Cell phones"
         }
     }'
 )
