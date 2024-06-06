@@ -5,6 +5,7 @@
     "Product": {
         "Code": "N-0002", 
         "Brand": "Nokia",
-        "Price": "180$"
+        "Price": "180",
+        "ChangeDate": "2024-06-05 12.00.00"
     }    
 }

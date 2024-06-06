@@ -1,14 +1,14 @@
 {
     "Employee": {
-        "Login": "manager"
+        "Login": "belyaevvi"
     },
     "Product": {
         "Brand": "Nokia",
-        "Code": "N-0002",
+        "Code": "N-0002"
+    },
+    "NewDescription": {
         "Name": "3200",
-        "Price": "1500$",
-        "MinAge": "18",
-        "State": "in stock",
+        "MinAge": "16",
         "Active": "true",
         "Characteristics": 
         [
@@ -20,6 +20,6 @@
                 "Name": "Height",
                 "Value": "250"
             }
-        ]           
-    }
+        ]     
+    }    
 }

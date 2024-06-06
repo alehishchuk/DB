@@ -1,10 +1,11 @@
 {
     "Employee": {
-        "Login": "manager"
+        "Login": "bachtiyarovbb"
     },
     "Product": {
         "Code": "N-0002",
         "Brand": "Nokia",
-        "State": "not available"
+        "State": "not available",
+        "ChangeDate": "2024-06-04 12.22.00"
     }    
 }

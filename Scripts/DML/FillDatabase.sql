@@ -419,9 +419,9 @@ call usp_AddProductDescription(N'
             "Login": "bachtiyarovbb"
         },
         "Product": {
-            "Brand": "Iphone",
-            "Code": "I-0020",
-            "Name": "5S",
+            "Brand": "Motorola",
+            "Code": "H40",
+            "Name": "H",
             "MinAge": "18",
             "Characteristics": 
             [
@@ -431,12 +431,125 @@ call usp_AddProductDescription(N'
                 },
                 {
                     "Name": "Color",
-                    "Value": "Black"
+                    "Value": "Gray"
                 }
             ]           
         },    
         "CatalogSection": {
             "Name": "Cell phones"
         }
+    }'
+)
+
+
+
+call usp_SetProductPrice(N'
+    {
+        "Employee": {
+            "Login": "belyaevvi"
+        },
+        "Product": {
+            "Code": "N-0002", 
+            "Brand": "Nokia",
+            "Price": "240",
+            "ChangeDate": "2024-06-05 12.00.00"
+        }    
+    }'
+)
+
+
+
+call usp_SetProductState(N'
+    {
+        "Employee": {
+            "Login": "bachtiyarovbb"
+        },
+        "Product": {
+            "Code": "N-0002",
+            "Brand": "Nokia",
+            "State": "not available",
+            "ChangeDate": "2024-06-04 12.22.00"
+        }    
+    }'
+)
+
+
+
+call usp_SetProductState(N'
+    {
+        "Employee": {
+            "Login": "bachtiyarovbb"
+        },
+        "Product": {
+            "Code": "I-0020",
+            "Brand": "Iphone",
+            "State": "not available",
+            "ChangeDate": "2024-06-04 12.32.00"
+        }    
+    }'
+)
+
+
+
+call usp_EditProductDescription(N'
+    {
+        "Employee": {
+            "Login": "belyaevvi"
+        },
+        "Product": {
+            "Brand": "Nokia",
+            "Code": "N-0002"
+        },
+        "NewDescription": {
+            "Name": "3200",
+            "MinAge": "16",
+            "Active": "1",
+            "Characteristics": 
+            [
+                {
+                    "Name": "Color",
+                    "Value": "Red"
+                },
+                {
+                    "Name": "Width",
+                    "Value": "500"
+                }
+            ]     
+        }    
+    }'
+)
+
+
+call usp_SetProductQuantity(N'
+    {
+        "Employee": {
+            "Login": "bachtiyarovbb"
+        },
+        "Product": {
+            "Code": "N-0002", 
+            "Brand": "Nokia"
+        },    
+        "Warehouse": {
+            "Name": "Central warehouse"        
+        },
+        "ProductQuantity": "24"    
+    }'
+)
+
+
+
+call usp_SetProductQuantity(N'
+    {
+        "Employee": {
+            "Login": "bachtiyarovbb"
+        },
+        "Product": {
+            "Code": "H40", 
+            "Brand": "Motorola"
+        },    
+        "Warehouse": {
+            "Name": "Warehouse Druzhba"        
+        },
+        "ProductQuantity": "100"    
     }'
 )
