@@ -188,6 +188,36 @@ call usp_CreateProductStates(N'
 )
 
 
+call usp_CreateOrderStatus(N'
+    [
+        {
+            "Name": "created"
+        },
+        {
+            "Name": "confirmed"
+        },
+        {
+            "Name": "collected"
+        },
+        {
+            "Name": "ready for delivery"
+        },
+        {
+            "Name": "issued"
+        },
+        {
+            "Name": "returned"
+        },
+        {
+            "Name": "cancelled"
+        },
+        {
+            "Name": "completed"
+        }
+    ]'
+)
+
+
 call usp_RegistrationNewClient(N'
     {
         "Client": {
@@ -442,6 +472,35 @@ call usp_AddProductDescription(N'
 )
 
 
+call usp_AddProductDescription(N'
+    {
+        "Employee": {
+            "Login": "bachtiyarovbb"
+        },
+        "Product": {
+            "Brand": "Home wire phone",
+            "Code": "HW01",
+            "Name": "Electronika",
+            "MinAge": "18",
+            "Characteristics": 
+            [
+                {
+                    "Name": "Color",
+                    "Value": "White"
+                },
+                {
+                    "Name": "Volume",
+                    "Value": "90"
+                }
+            ]           
+        },    
+        "CatalogSection": {
+            "Name": "Old fashion phones"
+        }
+    }'
+)
+
+
 
 call usp_SetProductPrice(N'
     {
@@ -551,5 +610,78 @@ call usp_SetProductQuantity(N'
             "Name": "Warehouse Druzhba"        
         },
         "ProductQuantity": "100"    
+    }'
+)
+
+
+
+call usp_AddProductToBasket(N'
+    {
+        "Client": {
+            "Login": "Client_1"
+        },
+        "Product": {
+            "Code": "N-0002",
+            "Brand": "Nokia",
+            "ProductQuantity": 5
+        }        
+    }'
+)
+
+
+call usp_RemoveProductFromBasket(N'
+    {
+        "Client": {
+            "Login": "Client_1"
+        },
+        "Product": {
+            "Code": "N-0002",
+            "Brand": "Nokia"
+        }
+    }'
+)
+
+
+call usp_CreateOrder(N'
+    {
+        "Order": {
+            "Code": "CP-0001",
+            "CreatedDate": "2024-05-27 12.00.00",        
+            "Status": "created",
+            "ShelfLife": "2024-05-29 12.00.00",
+            "VAT": 13
+        },
+        "Client": {
+            "Login": "Client_1"
+        },
+        "Product": [
+            {
+                "Code": "I-0002",
+                "Brand": "Iphone"
+            },
+            {
+                "Code": "N-0002",
+                "Brand": "Nokia"
+            }
+        ],
+        "Warehouse": {
+            "Name": "Central warehouse"
+        },
+        "PickUpPoint": {
+            "Name": null
+        }    
+    }'
+)
+
+
+call usp_ChangeOrderStatus(N'
+    {
+        "Order": {
+            "Code": "CP-0001",
+            "Status": "created"
+        },
+        "NewStatus": "ready for delivery",
+        "ChangeDateTime": "2024-05-20 12.00.00",
+        "Employee": "belyaevvi"
     }'
 )

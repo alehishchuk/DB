@@ -1,6 +1,7 @@
 {
     "Order": {
-        "OrderStatus": "confirmed"
+        "Code": "CP-0001",
+        "Status": "confirmed"
     },
     "NewStatus": "ready for delivery",
     "ChangeDateTime": "2024-05-20 12.00.00",

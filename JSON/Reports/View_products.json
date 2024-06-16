@@ -1,0 +1,15 @@
+{
+    "CatalogSection": "Cell phones",
+    "Brands": ["Nokia", "Motorola"],
+    "State": "in stock",
+    "CharValueRanges": [
+        {
+            "CharacteristicName": "Width",
+            "Min": 10,
+            "Max": 200
+        }
+    ],
+    "SortingMode": 1,
+    "Offset": 0,
+    "Limit": 10
+}

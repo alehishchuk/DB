@@ -1,9 +1,8 @@
 {
     "Order": {
-        "Client": "Client_1",
         "Code": "CP-0001",
         "CreatedDate": "2024-05-27 12.00.00",        
-        "OrderStatus": "confirmed",
+        "Status": "confirmed",
         "ShelfLife": "2024-05-29 12.00.00",
         "VAT": "13"
     },
@@ -12,14 +11,14 @@
     },
     "Product": [
         {
-            "Code": "N-0001",
-            "Brand": "Nokia",
-            "ProductQuantity": "1"
+            "Code": "I-0002",
+            "Brand": "Iphone",
+            "Quantity": "1"
         },
         {
             "Code": "N-0002",
             "Brand": "Nokia",
-            "ProductQuantity": "1"
+            "Quantity": "2"
         }
     ],
     "Warehouse": {

@@ -2,16 +2,9 @@
     "Client": {
         "Login": "Client_1"
     },
-    "Product": [
-        {
-            "Code": "N-0001",
-            "Brand": "Nokia",
-            "ProductQuantity": "1"
-        },
-        {
-            "Code": "N-0002",
-            "Brand": "Nokia",
-            "ProductQuantity": "1"
-        }
-    ]
+    "Product": {
+        "Code": "N-0001",
+        "Brand": "Nokia",
+        "ProductQuantity": 5
+    }        
 }

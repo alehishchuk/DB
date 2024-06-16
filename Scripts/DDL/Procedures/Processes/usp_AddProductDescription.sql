@@ -52,15 +52,15 @@ begin
                                 CharacteristicsValue    varchar(20)     path N'$.Value'
                             )
     )) js;
-
+    
     -- Insert into Product table
     insert into Product (Brand, Code, Name, MinAge, CatalogID, EmployeeID)
-    select tempJson.ProductBrand, 
-           tempJson.ProductCode, 
-           tempJson.ProductName, 
-           tempJson.ProductMinAge, 
-           CatalogSection.CatalogSectionID, 
-           Employee.EmployeeID
+    select distinct tempJson.ProductBrand, 
+                    tempJson.ProductCode, 
+                    tempJson.ProductName, 
+                    tempJson.ProductMinAge, 
+                    CatalogSection.CatalogSectionID, 
+                    Employee.EmployeeID
     from tempJson
     inner join CatalogSection on (tempJson.ProductCatalogName = CatalogSection.Name)
     inner join Employee on (tempJson.ProductEmployeeLogin = Employee.Login);
