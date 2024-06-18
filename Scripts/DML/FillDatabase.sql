@@ -259,6 +259,87 @@ call usp_RegistrationNewClient(N'
 
 
 
+call usp_RegistrationNewClient(N'
+    {
+        "Client": {
+            "Name": "qwerty",
+            "Login": "Client_3",
+            "PasswordHash": "kjgwelkgjshrl",
+            "PhoneNumber": "+843698573048756",
+            "Email": "client3@gmail.com",
+            "PurchaseLevel": "Gold",
+            "BonusPoints": "456",
+            "RegistrationDateTime": "2024-05-31 12.00.00",
+            "LastAuthorizationDateTime": "2024-05-31 12.00.00"
+        },
+        "Country": {
+            "Name": "Lybia"        
+        }    
+    }'
+)
+
+
+call usp_RegistrationNewClient(N'
+    {
+        "Client": {
+            "Name": "qwerty",
+            "Login": "Client_4",
+            "PasswordHash": "kjsghdkjlg",
+            "PhoneNumber": "+53986573548",
+            "Email": "client4@gmail.com",
+            "PurchaseLevel": "Gold",
+            "BonusPoints": "888",
+            "RegistrationDateTime": "2024-05-31 12.00.00",
+            "LastAuthorizationDateTime": "2024-05-31 12.00.00"
+        },
+        "Country": {
+            "Name": "Belarus"        
+        }    
+    }'
+)
+
+
+call usp_RegistrationNewClient(N'
+    {
+        "Client": {
+            "Name": "qwerty",
+            "Login": "Client_5",
+            "PasswordHash": ".skjlgfga;sj;glsj",
+            "PhoneNumber": "+3753985763087",
+            "Email": "client5@gmail.com",
+            "PurchaseLevel": "Gold",
+            "BonusPoints": "666",
+            "RegistrationDateTime": "2024-05-31 12.00.00",
+            "LastAuthorizationDateTime": "2024-05-31 12.00.00"
+        },
+        "Country": {
+            "Name": "China"        
+        }    
+    }'
+)
+
+
+call usp_RegistrationNewClient(N'
+    {
+        "Client": {
+            "Name": "qwerty",
+            "Login": "Client_6",
+            "PasswordHash": "aklsdhfldfkjhg",
+            "PhoneNumber": "+357689767",
+            "Email": "client6@gmail.com",
+            "PurchaseLevel": "Gold",
+            "BonusPoints": "667",
+            "RegistrationDateTime": "2024-05-31 12.00.00",
+            "LastAuthorizationDateTime": "2024-05-31 12.00.00"
+        },
+        "Country": {
+            "Name": "USA"        
+        }    
+    }'
+)
+
+
+
 call usp_CreateWarehouse(N'
     {
         "Warehouse": {
@@ -683,5 +764,85 @@ call usp_ChangeOrderStatus(N'
         "NewStatus": "ready for delivery",
         "ChangeDateTime": "2024-05-20 12.00.00",
         "Employee": "belyaevvi"
+    }'
+)
+
+
+call usp_AddProductReview(N'
+    {
+        "Client": {
+            "Login": "Client_2"
+        },
+        "Product": {
+            "Brand": "Nokia",
+            "Code": "N-0002"
+        },
+        "Comment": "Nice product!",
+        "Rating": 5,
+        "ReviewDate": "2023-01-01"
+    }'
+)
+
+
+call usp_AddProductReview(N'
+    {
+        "Client": {
+            "Login": "Client_1"
+        },
+        "Product": {
+            "Brand": "Nokia",
+            "Code": "N-0002"
+        },
+        "Comment": "So-so!",
+        "Rating": 3,
+        "ReviewDate": "2024-06-18"
+    }'
+)
+
+
+call usp_AddProductReview(N'
+    {
+        "Client": {
+            "Login": "Client_3"
+        },
+        "Product": {
+            "Brand": "Nokia",
+            "Code": "N-0002"
+        },
+        "Comment": "Nice to have!",
+        "Rating": 4,
+        "ReviewDate": "2024-01-01"
+    }'
+)
+
+
+call usp_AddProductReview(N'
+    {
+        "Client": {
+            "Login": "Client_3"
+        },
+        "Product": {
+            "Brand": "Iphone",
+            "Code": "I-0002"
+        },
+        "Comment": "Super!",
+        "Rating": 5,
+        "ReviewDate": "2024-02-02"
+    }'
+)
+
+
+call usp_AddProductReview(N'
+    {
+        "Client": {
+            "Login": "Client_4"
+        },
+        "Product": {
+            "Brand": "Iphone",
+            "Code": "I-0002"
+        },
+        "Comment": "The worst one!",
+        "Rating": 2,
+        "ReviewDate": "2023-12-12"
     }'
 )

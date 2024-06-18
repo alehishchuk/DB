@@ -1,0 +1,11 @@
+{
+    "Client": {
+        "Login": "Client_2"
+    },
+    "Product": {
+        "Brand": "Nokia",
+        "Code": "N-0002"
+    },
+    "Comment": "Nice product!",
+    "Rating": 5
+}
