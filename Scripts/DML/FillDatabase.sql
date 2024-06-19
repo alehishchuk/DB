@@ -582,6 +582,383 @@ call usp_AddProductDescription(N'
 )
 
 
+call usp_AddProductDescription(N'
+    {
+        "Employee": {
+            "Login": "bachtiyarovbb"
+        },
+        "Product": {
+            "Brand": "Iphone",
+            "Code": "I-0003",
+            "Name": "11",
+            "MinAge": "18",
+            "Characteristics": 
+            [
+                {
+                    "Name": "Color",
+                    "Value": "White"
+                }
+            ]           
+        },    
+        "CatalogSection": {
+            "Name": "Cell phones"
+        }
+    }'
+)
+
+
+call usp_AddProductDescription(N'
+    {
+        "Employee": {
+            "Login": "bachtiyarovbb"
+        },
+        "Product": {
+            "Brand": "Iphone",
+            "Code": "I-0004",
+            "Name": "12",
+            "MinAge": "18",
+            "Characteristics": 
+            [
+                {
+                    "Name": "Width",
+                    "Value": "150"
+                },
+                {
+                    "Name": "Height",
+                    "Value": "250"
+                }
+            ]           
+        },    
+        "CatalogSection": {
+            "Name": "Cell phones"
+        }
+    }'
+)
+
+
+call usp_AddProductDescription(N'
+    {
+        "Employee": {
+            "Login": "bachtiyarovbb"
+        },
+        "Product": {
+            "Brand": "Iphone",
+            "Code": "I-0005",
+            "Name": "13",
+            "MinAge": "18",
+            "Characteristics": 
+            [
+                {
+                    "Name": "Width",
+                    "Value": "250"
+                },
+                {
+                    "Name": "Height",
+                    "Value": "350"
+                }
+            ]           
+        },    
+        "CatalogSection": {
+            "Name": "Cell phones"
+        }
+    }'
+)
+
+
+call usp_AddProductDescription(N'
+    {
+        "Employee": {
+            "Login": "bachtiyarovbb"
+        },
+        "Product": {
+            "Brand": "Motorola",
+            "Code": "M-0045",
+            "Name": "13",
+            "MinAge": "18",
+            "Characteristics": 
+            [
+                {
+                    "Name": "Width",
+                    "Value": "150"
+                },
+                {
+                    "Name": "Height",
+                    "Value": "300"
+                }
+            ]           
+        },    
+        "CatalogSection": {
+            "Name": "Cell phones"
+        }
+    }'
+)
+
+
+call usp_AddProductDescription(N'
+    {
+        "Employee": {
+            "Login": "bachtiyarovbb"
+        },
+        "Product": {
+            "Brand": "Motorola",
+            "Code": "M-0048",
+            "Name": "13",
+            "MinAge": "18",
+            "Characteristics": 
+            [
+                {
+                    "Name": "Width",
+                    "Value": "150"
+                },
+                {
+                    "Name": "Height",
+                    "Value": "300"
+                }
+            ]           
+        },    
+        "CatalogSection": {
+            "Name": "Cell phones"
+        }
+    }'
+)
+
+
+call usp_AddProductDescription(N'
+    {
+        "Employee": {
+            "Login": "bachtiyarovbb"
+        },
+        "Product": {
+            "Brand": "Motorola",
+            "Code": "M-0050",
+            "Name": "13",
+            "MinAge": "18",
+            "Characteristics": 
+            [
+                {
+                    "Name": "Width",
+                    "Value": "150"
+                },
+                {
+                    "Name": "Height",
+                    "Value": "300"
+                }
+            ]           
+        },    
+        "CatalogSection": {
+            "Name": "Cell phones"
+        }
+    }'
+)
+
+
+call usp_AddProductDescription(N'
+    {
+        "Employee": {
+            "Login": "bachtiyarovbb"
+        },
+        "Product": {
+            "Brand": "Nokia",
+            "Code": "N-0005",
+            "Name": "13",
+            "MinAge": "18",
+            "Characteristics": 
+            [
+                {
+                    "Name": "Width",
+                    "Value": "150"
+                },
+                {
+                    "Name": "Height",
+                    "Value": "300"
+                }
+            ]           
+        },    
+        "CatalogSection": {
+            "Name": "Cell phones"
+        }
+    }'
+)
+
+
+call usp_AddProductDescription(N'
+    {
+        "Employee": {
+            "Login": "bachtiyarovbb"
+        },
+        "Product": {
+            "Brand": "Nokia",
+            "Code": "N-0006",
+            "Name": "13",
+            "MinAge": "18",
+            "Characteristics": 
+            [
+                {
+                    "Name": "Width",
+                    "Value": "150"
+                },
+                {
+                    "Name": "Height",
+                    "Value": "300"
+                }
+            ]           
+        },    
+        "CatalogSection": {
+            "Name": "Cell phones"
+        }
+    }'
+)
+
+
+call usp_AddProductDescription(N'
+    {
+        "Employee": {
+            "Login": "bachtiyarovbb"
+        },
+        "Product": {
+            "Brand": "Nokia",
+            "Code": "N-0010",
+            "Name": "13",
+            "MinAge": "18",
+            "Characteristics": 
+            [
+                {
+                    "Name": "Width",
+                    "Value": "200"
+                },
+                {
+                    "Name": "Height",
+                    "Value": "300"
+                }
+            ]           
+        },    
+        "CatalogSection": {
+            "Name": "Cell phones"
+        }
+    }'
+)
+
+
+call usp_SetProductPrice(N'
+    {
+        "Employee": {
+            "Login": "belyaevvi"
+        },
+        "Product": {
+            "Code": "N-0010", 
+            "Brand": "Nokia",
+            "Price": "200",
+            "ChangeDate": "2024-06-13 12.00.00"
+        }    
+    }'
+)
+
+
+call usp_SetProductPrice(N'
+    {
+        "Employee": {
+            "Login": "belyaevvi"
+        },
+        "Product": {
+            "Code": "N-0006", 
+            "Brand": "Nokia",
+            "Price": "130",
+            "ChangeDate": "2024-06-13 12.00.00"
+        }    
+    }'
+)
+
+
+call usp_SetProductPrice(N'
+    {
+        "Employee": {
+            "Login": "belyaevvi"
+        },
+        "Product": {
+            "Code": "N-0005", 
+            "Brand": "Nokia",
+            "Price": "100",
+            "ChangeDate": "2024-06-13 12.00.00"
+        }    
+    }'
+)
+
+
+call usp_SetProductPrice(N'
+    {
+        "Employee": {
+            "Login": "belyaevvi"
+        },
+        "Product": {
+            "Code": "M-0050", 
+            "Brand": "Motorola",
+            "Price": "450",
+            "ChangeDate": "2024-06-13 12.00.00"
+        }    
+    }'
+)
+
+
+call usp_SetProductPrice(N'
+    {
+        "Employee": {
+            "Login": "belyaevvi"
+        },
+        "Product": {
+            "Code": "M-0048", 
+            "Brand": "Motorola",
+            "Price": "410",
+            "ChangeDate": "2024-06-13 12.00.00"
+        }    
+    }'
+)
+
+
+call usp_SetProductPrice(N'
+    {
+        "Employee": {
+            "Login": "belyaevvi"
+        },
+        "Product": {
+            "Code": "M-0045", 
+            "Brand": "Motorola",
+            "Price": "320",
+            "ChangeDate": "2024-06-13 12.00.00"
+        }    
+    }'
+)
+
+
+call usp_SetProductPrice(N'
+    {
+        "Employee": {
+            "Login": "belyaevvi"
+        },
+        "Product": {
+            "Code": "I-0005", 
+            "Brand": "Iphone",
+            "Price": "680",
+            "ChangeDate": "2024-06-13 12.00.00"
+        }    
+    }'
+)
+
+
+call usp_SetProductPrice(N'
+    {
+        "Employee": {
+            "Login": "belyaevvi"
+        },
+        "Product": {
+            "Code": "I-0004", 
+            "Brand": "Iphone",
+            "Price": "540",
+            "ChangeDate": "2024-06-05 12.00.00"
+        }    
+    }'
+)
+
+
 
 call usp_SetProductPrice(N'
     {
@@ -598,6 +975,127 @@ call usp_SetProductPrice(N'
 )
 
 
+call usp_SetProductPrice(N'
+    {
+        "Employee": {
+            "Login": "belyaevvi"
+        },
+        "Product": {
+            "Code": "I-0003", 
+            "Brand": "Iphone",
+            "Price": "500",
+            "ChangeDate": "2024-06-19 12.00.00"
+        }    
+    }'
+)
+
+
+call usp_SetProductState(N'
+    {
+        "Employee": {
+            "Login": "bachtiyarovbb"
+        },
+        "Product": {
+            "Code": "N-0010",
+            "Brand": "Nokia",
+            "State": "in stock",
+            "ChangeDate": "2024-06-04 12.22.00"
+        }    
+    }'
+)
+
+
+call usp_SetProductState(N'
+    {
+        "Employee": {
+            "Login": "bachtiyarovbb"
+        },
+        "Product": {
+            "Code": "N-0006",
+            "Brand": "Nokia",
+            "State": "in stock",
+            "ChangeDate": "2024-06-04 12.22.00"
+        }    
+    }'
+)
+
+
+call usp_SetProductState(N'
+    {
+        "Employee": {
+            "Login": "bachtiyarovbb"
+        },
+        "Product": {
+            "Code": "N-0005",
+            "Brand": "Nokia",
+            "State": "in stock",
+            "ChangeDate": "2024-06-04 12.22.00"
+        }    
+    }'
+)
+
+
+call usp_SetProductState(N'
+    {
+        "Employee": {
+            "Login": "bachtiyarovbb"
+        },
+        "Product": {
+            "Code": "M-0050",
+            "Brand": "Motorola",
+            "State": "in stock",
+            "ChangeDate": "2024-06-04 12.22.00"
+        }    
+    }'
+)
+
+
+call usp_SetProductState(N'
+    {
+        "Employee": {
+            "Login": "bachtiyarovbb"
+        },
+        "Product": {
+            "Code": "M-0048",
+            "Brand": "Motorola",
+            "State": "in stock",
+            "ChangeDate": "2024-06-04 12.22.00"
+        }    
+    }'
+)
+
+
+
+call usp_SetProductState(N'
+    {
+        "Employee": {
+            "Login": "bachtiyarovbb"
+        },
+        "Product": {
+            "Code": "M-0045",
+            "Brand": "Motorola",
+            "State": "in stock",
+            "ChangeDate": "2024-06-04 12.22.00"
+        }    
+    }'
+)
+
+
+call usp_SetProductState(N'
+    {
+        "Employee": {
+            "Login": "bachtiyarovbb"
+        },
+        "Product": {
+            "Code": "I-0005",
+            "Brand": "Iphone",
+            "State": "in stock",
+            "ChangeDate": "2024-06-04 12.22.00"
+        }    
+    }'
+)
+
+
 
 call usp_SetProductState(N'
     {
@@ -609,6 +1107,36 @@ call usp_SetProductState(N'
             "Brand": "Nokia",
             "State": "not available",
             "ChangeDate": "2024-06-04 12.22.00"
+        }    
+    }'
+)
+
+
+call usp_SetProductState(N'
+    {
+        "Employee": {
+            "Login": "bachtiyarovbb"
+        },
+        "Product": {
+            "Code": "I-0004",
+            "Brand": "Iphone",
+            "State": "in stock",
+            "ChangeDate": "2024-06-04 12.22.00"
+        }    
+    }'
+)
+
+
+call usp_SetProductState(N'
+    {
+        "Employee": {
+            "Login": "bachtiyarovbb"
+        },
+        "Product": {
+            "Code": "I-0003",
+            "Brand": "Iphone",
+            "State": "in stock",
+            "ChangeDate": "2024-06-18 12.22.00"
         }    
     }'
 )
@@ -844,5 +1372,69 @@ call usp_AddProductReview(N'
         "Comment": "The worst one!",
         "Rating": 2,
         "ReviewDate": "2023-12-12"
+    }'
+)
+
+
+call usp_AddProductReview(N'
+    {
+        "Client": {
+            "Login": "Client_4"
+        },
+        "Product": {
+            "Brand": "Motorola",
+            "Code": "M-0040"
+        },
+        "Comment": "The worst one!",
+        "Rating": 2,
+        "ReviewDate": "2023-06-12"
+    }'
+)
+
+
+call usp_AddProductReview(N'
+    {
+        "Client": {
+            "Login": "Client_4"
+        },
+        "Product": {
+            "Brand": "Electronika",
+            "Code": "HW-0001"
+        },
+        "Comment": "The worst one!",
+        "Rating": 2,
+        "ReviewDate": "2023-05-10"
+    }'
+)
+
+
+call usp_AddProductReview(N'
+    {
+        "Client": {
+            "Login": "Client_5"
+        },
+        "Product": {
+            "Brand": "Electronika",
+            "Code": "HW-0001"
+        },
+        "Comment": "Ideal!",
+        "Rating": 5,
+        "ReviewDate": "2024-05-10"
+    }'
+)
+
+
+call usp_AddProductReview(N'
+    {
+        "Client": {
+            "Login": "Client_6"
+        },
+        "Product": {
+            "Brand": "Iphone",
+            "Code": "I-0001"
+        },
+        "Comment": "Cool",
+        "Rating": 4,
+        "ReviewDate": "2023-01-10"
     }'
 )
